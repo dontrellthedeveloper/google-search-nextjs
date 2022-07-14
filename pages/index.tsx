@@ -2,12 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Avatar from '../components/Avatar';
+import Footer from '../components/Footer';
 import {MicrophoneIcon, ViewGridIcon} from "@heroicons/react/solid";
 import {SearchIcon} from "@heroicons/react/outline";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="flex flex-col items-center justify-center h-screen">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
           </div>
         </header>
         {/*  Body  */}
-        <form className='flex flex-col items-center mt-44 flex-grow'>
+        <form className='flex flex-col items-center mt-44 flex-grow w-4/5'>
           <Image
             src='https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
             height={100}
@@ -53,6 +54,7 @@ const Home: NextPage = () => {
         </form>
 
         {/*  Footer  */}
+      <Footer/>
     </div>
   )
 }
