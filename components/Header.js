@@ -39,7 +39,7 @@ function Header(props) {
                     <SearchIcon className='h-6 text-blue-500 hidden sm:inline-flex' />
                     <button hidden type='submit' onClick={search}>Search</button>
                 </form>
-                <Avatar className='ml-auto' url='https://coaching.papareact.com/ai9'/>
+                <Avatar className='ml-auto' url='https://i.ibb.co/KFhK5zL/dontrell-professional.jpg'/>
             </div>
 
             <HeaderOptions/>
