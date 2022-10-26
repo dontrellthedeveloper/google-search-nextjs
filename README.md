@@ -37,7 +37,7 @@
 <h3 align="center">Google Search Clone - Next.js Application</h3>
 
   <p align="center">
-    This Google Search Clone was built using Next.js and the Google Search API. This stack includes - Next.js, React.js, Google Search, Netlify, and Tailwind CSS.
+    This Google Search Clone was built using Next.js and the Google Search API. This stack includes - Next.js, React.js, Google Search, Vercel, and Tailwind CSS.
     <br />
     <a href="https://github.com/dontrellthedeveloper/google-search-nextjs"><strong>Explore the docs »</strong></a>
     <br />
